@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 
 class CharacterAdapter(
-    var characterList: List<Character>
+    var characterList: List<Character>,
 ) : RecyclerView.Adapter<CharacterAdapter.CharacterViewHolder>(){
 
     class CharacterViewHolder(view: View) : RecyclerView.ViewHolder(view) {

@@ -8,5 +8,5 @@ data class Character(
 )
 
 data class CharacterResult(
-    val results: List<Character>?
+    val results: List<Character>
 )
