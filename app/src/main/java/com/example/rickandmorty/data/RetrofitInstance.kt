@@ -1,4 +1,4 @@
-package com.example.rickandmorty
+package com.example.rickandmorty.data
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -8,5 +8,5 @@ object RetrofitInstance {
         .addConverterFactory(GsonConverterFactory.create())
         .baseUrl("https://rickandmortyapi.com/api/")
         .build()
-        .create(ApiInterface::class.java)
+        .create(CharacterService::class.java)
 }

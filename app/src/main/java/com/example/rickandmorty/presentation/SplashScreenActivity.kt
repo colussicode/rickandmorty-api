@@ -1,11 +1,10 @@
-package com.example.rickandmorty
+package com.example.rickandmorty.presentation
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import android.view.Window
-import android.view.WindowManager
+import com.example.rickandmorty.R
 
 class SplashScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
