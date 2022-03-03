@@ -1,4 +1,4 @@
-package com.example.rickandmorty.presentation
+package com.example.rickandmorty.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

@@ -1,11 +1,9 @@
-package com.example.rickandmorty.data
+package com.example.rickandmorty.model
 
 import com.example.rickandmorty.CharacterResult
-import retrofit2.Call
 import retrofit2.http.GET
 
 interface CharacterService {
-
     @GET("character")
-    fun getCharacters() : Call<CharacterResult>
+    suspend fun getCharacters() : CharacterResult
 }
